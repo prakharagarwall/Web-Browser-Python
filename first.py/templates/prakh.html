@@ -1,0 +1,163 @@
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color:rgba(255, 128,0, 0.7);
+    color: white;
+	border-radius:20%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	height:96%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(98, 239, 176,1.2);
+	border-radius:15%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	color:black;
+	font-weight:bold;
+	font-size:120%;
+    background-color:rgba(255, 179, 102,1);
+}
+</style>
+</head>
+<body style="margin:0px;">
+<div style="background-color:brown;height:100%;width:100%;">
+<!-- -------------------------------------    Headings ------------------------------ -->
+<div style="background-color:rgba(0,0,0,0.3);height:10%;width:100%;">
+<center>
+<br/>
+<span style="color:white;font-size:200%;">This is my First Line</span>
+</center>
+</div>
+<!-- ------------------------------------- buttons options ------------------------------ -->
+
+<div style="background-color:rgba(0,0,0,0.6);height:8%;width:100%;margin-top:0.4%">
+
+<div style="background-color:rgba(200,0,0,0.6);height:100%;width:25%;float:left;color:white;"> 
+
+<center>
+<div class="dropdown">
+  <button class="dropbtn">Movies</button>
+  <div class="dropdown-content">
+    <a href="http://www.worldfree4u.lol">WorldFree4u</a>
+    <a href="http://hdmoviespoint.info">HD MoviesPoint</a>
+    <a href="http://fmovies.se">Fmovies</a>
+  </div>
+</div>
+</center>
+</div>
+
+
+<div style="background-color:rgba(200,0,0,0.4);height:100%;width:25%;float:left;color:white;"> 
+<center>
+<div class="dropdown">
+  <button class="dropbtn">Music</button>
+  <div class="dropdown-content">
+    <a href="http://gaana.com/">Ganna</a>
+    <a href="https://amazingtunes.com/">AmazingTunes</a>
+    <a href="http://aolradio.slacker.com/">Aol.Radio</a>
+    <a href="http://www.slacker.com/">Slacker</a>
+  </div>
+</div>
+</center>
+</div>
+<div style="background-color:rgba(200,0,0,0.6);height:100%;width:25%;float:left;color:white;"> 
+<center>
+<div class="dropdown">
+  <button class="dropbtn">Social Media</button>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="https://www.linkedin.com/">LinkedIn</a>
+    <a href="https://twitter.com/">Twitter</a>
+    <a href="https://www.instagram.com/">Instagram</a>
+  </div>
+</div>
+</center>
+</div>
+<div style="background-color:rgba(200,0,0,0.4);height:100%;width:25%;float:left;color:white;"> 
+<center>
+<div class="dropdown">
+  <button class="dropbtn">&nbsp;News &nbsp;</button>
+  <div class="dropdown-content">
+    <a href="http://www.bbc.co.uk/news/world">BBC</a>
+    <a href="http://www.ndtv.com/">NDTV</a>
+    <a href="http://www.foxnews.com/">Fox News</a>
+    <a href="http://edition.cnn.com/">CNN</a>
+  </div>
+</div>
+</center>
+</div>
+
+</div>
+<!--------------------------------------Search Content------------------------------------------->
+<div style="height:15%; width:100%;background-color:rgba(0,0,0,0)">
+
+</div>
+
+<div style="height:18%; width:100%;background-color:rgba(0,0,0,0);">
+<center>
+<div style="height:100%; width:50%;">
+<img src="logo2.jpg" style="height:100%;width:50%;margin-right:15%;">
+
+</div>
+
+</center>
+</div>
+<div style="height:30%; width:100%;">
+</br>
+<div align="center" class="gsearch" style="height:50%; width:100%;background-color:rgba(0,0,0,0)">
+<form method="get" action="http://www.google.com/search">
+<input type="text"   name="q" size="50"  style="height:35%;color:gray;"
+maxlength="255" value="Search Here" onBlur="if(this.value=='')this.value='Search Here';this.style='color:gray;height:35%;';" on
+onFocus="if(this.value=='Search Here')this.value='';this.style='color:black;height:35%;font-weight:bold;font-size:100%';" "/>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Google Search" style="height: 28px;" />
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
